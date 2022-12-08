@@ -1,0 +1,22 @@
+<div class="main">
+
+  <div class="login-card">
+
+    <h3>Login</h3>
+
+    <mat-form-field appearance="outline" class ="field-width">
+      <mat-label>Email</mat-label>
+      <input matInput placeholder="Email" type="email">
+    </mat-form-field>
+
+
+    <mat-form-field appearance="outline" class ="field-width">
+      <mat-label>Password</mat-label>
+      <input matInput placeholder="Password" type="password">
+    </mat-form-field>
+<a [routerLink]="['/auth/signup']"> create account</a>
+    <button mat-raised-button color="primary" (click)="onloginClicked()">Login</button>
+
+
+  </div>
+</div>
